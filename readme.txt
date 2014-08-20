@@ -3,7 +3,7 @@ Contributors: Julien Zerbib
 Tags: fullpage, fullscreen, scrolling
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,8 @@ Change your WordPress website to a Fullscreen Scrolling one using fullPage.js
 Wp Fullpage integrates the power of [fullPage.js](https://github.com/alvarotrigo/fullPage.js "fullPage.js") into your WordPress website.
 
 = New Features =
-Fullpage are now available as front page
+1. Fullpage are now available as front page.
+2. Fullpage post type is now empty in the premalink (like pages permalink).
 
 = How to use =
 1. Create Fullpage Sections and Slides and integrates them into a Fullpage.
@@ -37,7 +38,12 @@ Read the [full documentation](http://docs.juzed.fr/wp-fullpage "WP FullPage Docu
 3. Activate the plugin through the "Plugins" menu in WordPress.
 4. Go to "Settings/Wp FullPage" for default settings.
 
+== Upgrade Notice ==
+Deactivate than reactivate the plugin after upgrade to refresh permalinks.
+
 == Changelog ==
+= 1.3 =
+*   Remove fullpage post-type in permalink and add fullpage to the front page dropdown. 
 = 1.2 =
 *   Condition updated. 
 = 1.1 =
