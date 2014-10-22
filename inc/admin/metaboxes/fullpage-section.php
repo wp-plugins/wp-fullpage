@@ -83,7 +83,7 @@ class WP_Fullpage_Section_Type_Metabox extends WP_Fullpage_Metabox_Base {
 		// Section Options Metabox
 		add_meta_box(
 			'wpfp_section_options',
-			__( 'WP Fullpage Options', WPFP_DOMAIN ),
+			__( 'WP Fullpage Section Options', WPFP_DOMAIN ),
 			array( &$this, 'render_section_options_content' ),
 			$this->post_type,
 			'advanced',
