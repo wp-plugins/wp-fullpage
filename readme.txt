@@ -3,7 +3,7 @@ Contributors: Julien Zerbib
 Tags: fullpage, fullscreen, scrolling, theme, parallax
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 3.0
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,8 @@ Read the [full documentation](http://docs.juzed.fr/wp-fullpage "WP FullPage Docu
 Deactivate than reactivate the plugin after upgrade to refresh permalinks.
 
 == Changelog ==
+= 3.1 =
+*   Admin Bug Fixes
 = 3.0 =
 *   New parallax effect
 = 2.2 =
